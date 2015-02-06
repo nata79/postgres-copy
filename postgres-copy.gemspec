@@ -22,7 +22,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.summary = "Put COPY command functionality in ActiveRecord's model class"
 
-  s.add_dependency "pg", ">= 0.17"
   s.add_dependency "activerecord", '>= 4.0'
   s.add_dependency "rails", '>= 4.0'
   s.add_dependency "responders"
